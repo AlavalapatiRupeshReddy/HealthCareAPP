@@ -1,0 +1,49 @@
+.signup-page {
+  background-image: url('ss.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: right center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.signup-page-container {
+  background-color: rgba(33, 6, 77, 0.5);
+  margin: 20px;
+  padding: 30px;
+  width: 50%;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+}
+
+.login-box1 {
+  text-align: center;
+  width: 100%;
+}
+
+.login-form1 .form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px; /* Adjusted margin for spacing */
+}
+
+.login-form1 label {
+  font-size: 12px; /* Slightly decreased font size for input labels */
+  margin-bottom: 5px; /* Adjust margin for spacing between labels and inputs */
+}
+
+.login-form1 input {
+  padding: 10px; /* Adjusted input padding */
+  width: 100%;
+}
+
+.login-form1 button {
+  margin-top: 20px;
+  padding: 15px 20px;
+  width: 30%;
+}

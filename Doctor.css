@@ -1,0 +1,48 @@
+/* DoctorPage.css */
+
+.doctor-page-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: blanchedalmond;
+}
+
+.doctor-page-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.8em;
+}
+
+.doctor-page-container form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.doctor-page-container form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.health-values-container {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.health-values-container h2 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.health-values-container p {
+  margin-bottom: 10px;
+}

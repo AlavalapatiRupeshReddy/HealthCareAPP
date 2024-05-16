@@ -1,0 +1,185 @@
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  /* Center items vertically in the container */
+    padding: 30px;
+    height: 100vh;
+}
+
+/* Adjust the styles for the header to properly space out the Login and Sign Up buttons */
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.logo {
+    font-size: 48px;
+    color: #00A2E8;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.3s ease; /* Added transition for smoothness */
+}
+
+button:hover {
+    transform: scale(1.1); /* Enlarges the button on hover */
+}
+
+.login {
+    background-color: #00FF00;
+}
+
+.signup {
+    background-color: #00A2E8;
+}
+
+.book-slot {
+    background: linear-gradient(to right, #00FF00, #00A2E8);
+    margin-top: 50px;
+    padding: 20px 40px;
+    font-size: 24px;
+}
+
+.slideshow {
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide {
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.large-btn {
+    font-size: 24px;  /* Increase font size */
+    padding: 15px 30px;  /* Increase padding */
+}
+/* ... (Your other CSS code) ... */
+
+.logo h1 {
+    font-size: 40px;
+    font-family: 'Bungee', cursive;
+    color: white;
+    text-shadow: 3px 3px 0 #000, /* bottom right */
+                 6px 6px 0 #000, /* bigger bottom right */
+                -1px -1px 0 #000, /* top left */
+                -2px -2px 0 #000; /* bigger top left */
+}
+/* ... (Your previous CSS code) ... */
+
+.btn-outline-light {
+    border-color: white;
+    color: white;
+    display: block;   /* Make the button a block element to occupy the full width of its container */
+    margin: 20px auto 0; /* Margin auto centers the button */
+    text-align: center; /* Ensure text in the button is centered */
+}
+/* ... (Your previous CSS code) ... */
+
+.form-group {
+    margin-bottom: 20px; /* Space between form groups */
+}
+
+.form-control {
+    background-color: rgba(255,255,255,0.2);
+    border: 1px solid white;
+    color: white;
+    width: 100%; /* Ensure the input fields take the full width of their container */
+}
+
+.form-control:focus {
+    background-color: rgba(255,255,255,0.3);
+    border-color: #00FF00;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-outline-light {
+    border-color: white;
+    color: white;
+    display: block;  /* Convert button to block level element */
+    margin: 20px auto;  /* Auto margins on left and right to center block-level elements */
+    text-align: center;  /* Center the text within the button */
+}
+.register-box h3 {
+    color: white;
+    text-shadow: 2px 2px 4px #000; /* Horizontal shadow, Vertical shadow, Blur radius, Color */
+}
+.sports-section {
+    display: flex;
+    justify-content: center;  /* Horizontally center the flex items */
+    align-items: center;      /* Vertically center the flex items */
+    width: 100%;
+    padding: 20px 0;
+}
+
+.sport-btn {
+    width: 150px;         /* Increase the width from 100px to 150px */
+    height: 150px;        /* Increase the height from 100px to 150px */
+    border: none;
+    border-radius: 15px;  /* Increase border-radius for a consistent look */
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 0 20px;       /* Add 20px horizontal margin for spacing between buttons */
+}
+
+.sport-btn span {
+    color:white;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+.basketball {
+    background: url('basketball.jpg') no-repeat center/cover;
+}
+
+.badminton {
+    background: url('badminton.jpg') no-repeat center/cover;
+}
+
+.cricket {
+    background: url('cricket.jpg') no-repeat center/cover;
+}
+
+.pool {
+    background: url('billiards.jpg') no-repeat center/cover;
+}
+.bottom-buttons {
+    margin: 10px 0 20px 0; /* Add some space above and below the buttons */
+}
+.btn-outline-light {
+    /* ... existing styles ... */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Horizontal offset, Vertical offset, Blur radius, Shadow color */
+}
+
+.btn-outline-light:hover {
+    /* ... existing styles ... */
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3); /* Slightly larger shadow on hover */
+}

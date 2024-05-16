@@ -1,0 +1,26 @@
+.doctor-page {
+    background-image: url('ss.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+  .doctor-login-container {
+    background-color: rgba(33, 6, 77, 0.5); /* Add background color with transparency */
+    padding: 30px;
+    width:50%;
+  }
+  
+  .login-box {
+    text-align: center;
+  }
+  
+  .login-form input,
+  .login-form button {
+    margin: 20px 0;
+    padding:10px;
+  }
+  

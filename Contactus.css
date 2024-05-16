@@ -1,0 +1,35 @@
+.contact-us-container {
+    background-image: url('ss.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+    min-height: 50vh;
+    display: flex;
+    flex-wrap: wrap; /* Enable wrapping to create two rows */
+    justify-content: space-between;
+    padding: 20px; /* Add padding for sufficient gap */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+  }
+  
+  .contact-card {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: calc(32% - 40px); 
+    min-height: 100px;
+    color: black;
+    background-color: whitesmoke;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .contact-card1 {
+    background-image: url('rupesh.jpg');
+  }
+  
+
+  
+  

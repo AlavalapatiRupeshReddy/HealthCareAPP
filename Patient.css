@@ -1,0 +1,127 @@
+/* Add your global styles here if needed */
+
+body {
+  background-image: url('ss.jpg'); /* Replace with your background image */
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  color: white;
+  margin: 0; /* Remove default body margin */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  min-height: 100vh;
+  overflow: hidden; /* Hide overflow content */
+  position: relative; /* Position for curved background */
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.logo {
+  font-size: 48px;
+  color: #00A2E8;
+}
+
+.health-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  width: 100%; /* Make it full width */
+}
+
+/* Apply individual background images for each data-item */
+.temperature {
+  background-color:whitesmoke; 
+  position: relative;
+  text-align: center;
+  }
+
+.heart-rate {
+  background-color:whitesmoke; 
+  position: relative;
+  text-align: center;
+}
+
+.spo2 {
+  background-color:whitesmoke; 
+  position: relative;
+  text-align: center;
+}
+
+.pulse {
+  background-color:white; 
+  position: relative;
+  text-align: center;
+}
+
+.data-item {
+  text-align: center;
+  background-color:white;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+  min-height: 25vh; 
+ 
+}
+
+/* Increase the size of the columns for larger divisions */
+.col-md-6 {
+  flex: 1; /* Divide the space evenly between the two items */
+}
+
+.data-item h2 {
+  margin: 0;
+  font-size: 25px;
+  
+}
+
+.data-item p {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #04141b;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.side-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.health-condition,
+.doctor-prescription {
+  background-color: white;
+  width: 100%; /* Set the width for the side divisions */
+  padding: 20px;
+  border-radius: 10px;
+  margin: 5px;
+  height: 250px;
+}
+.top-left {
+  background-image: url('logo.jpeg');
+  background-size: contain; /* You can adjust this property to control the size of the image */
+  width: 70px;
+  height: 73px;
+  border-radius:40px;
+  cursor: pointer;
+  display: inline-block; /* Ensures the image is inline with the text */
+  vertical-align: middle; /* Vertically aligns the image with the text */
+  margin-right: 10px;
+}
+
+.top {
+      padding-right:700px;
+}
